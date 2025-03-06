@@ -16,6 +16,3 @@ spec:
       containers:
         - name: demo-api
           image: shyeonnie/demo-api:3
-          env:
-            - name: SPRING_PROFILE
-              value: dev
